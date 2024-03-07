@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="insertMenu">
+        insert into tbl_menu(menu_name,menu_price,category_code,orderable_status)
+        values(?,?,?,?)
+    </entry>
+    <entry key="updateMenu">
+        update
+            tbl_menu
+        set
+            menu_name=?,
+            menu_price=?
+        where
+            menu_code  = ?
+
+    </entry>
+</properties>
