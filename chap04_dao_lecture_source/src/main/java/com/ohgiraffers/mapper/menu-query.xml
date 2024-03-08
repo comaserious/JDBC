@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone ="no" ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="selectLastMenuCode">
+    select MAX(menu_code)
+    from tbl_menu;
+</entry>
+<entry key="selectAllCategory">
+    select category_code, category_name
+    from tbl_category;
+</entry>
+    <entry key="InsertMenu">
+        insert into tbl_menu(menu_code,menu_name,menu_price,category_code,orderable_status)
+        values (?,?,?,?,?)
+    </entry>
+</properties>

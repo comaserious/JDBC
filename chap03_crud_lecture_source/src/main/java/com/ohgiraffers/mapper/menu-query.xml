@@ -15,4 +15,8 @@
             menu_code  = ?
 
     </entry>
+    <entry key="Delete">
+        delete from tbl_menu
+        where menu_code = ?
+    </entry>
 </properties>
