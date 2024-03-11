@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@localhost">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.51">
-    <root id="1">
-      <DefaultCasing>lower/lower</DefaultCasing>
-      <DefaultEngine>InnoDB</DefaultEngine>
-      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
-      <Grants>employee|schema||ohgiraffers||ALTER|G
-employee|schema||ohgiraffers||ALTER ROUTINE|G
-employee|schema||ohgiraffers||CREATE|G
-employee|schema||ohgiraffers||CREATE ROUTINE|G
-employee|schema||ohgiraffers||CREATE TEMPORARY TABLES|G
-employee|schema||ohgiraffers||CREATE VIEW|G
-employee|schema||ohgiraffers||DELETE|G
-employee|schema||ohgiraffers||DROP|G
-employee|schema||ohgiraffers||EVENT|G
-employee|schema||ohgiraffers||EXECUTE|G
-employee|schema||ohgiraffers||INDEX|G
-employee|schema||ohgiraffers||INSERT|G
-employee|schema||ohgiraffers||LOCK TABLES|G
-employee|schema||ohgiraffers||REFERENCES|G
-employee|schema||ohgiraffers||SELECT|G
-employee|schema||ohgiraffers||SHOW VIEW|G
-employee|schema||ohgiraffers||TRIGGER|G
-employee|schema||ohgiraffers||UPDATE|G
-menudb|schema||ohgiraffers||ALTER|G
-menudb|schema||ohgiraffers||ALTER ROUTINE|G
-menudb|schema||ohgiraffers||CREATE|G
-menudb|schema||ohgiraffers||CREATE ROUTINE|G
-menudb|schema||ohgiraffers||CREATE TEMPORARY TABLES|G
-menudb|schema||ohgiraffers||CREATE VIEW|G
-menudb|schema||ohgiraffers||DELETE|G
-menudb|schema||ohgiraffers||DROP|G
-menudb|schema||ohgiraffers||EVENT|G
-menudb|schema||ohgiraffers||EXECUTE|G
-menudb|schema||ohgiraffers||INDEX|G
-menudb|schema||ohgiraffers||INSERT|G
-menudb|schema||ohgiraffers||LOCK TABLES|G
-menudb|schema||ohgiraffers||REFERENCES|G
-menudb|schema||ohgiraffers||SELECT|G
-menudb|schema||ohgiraffers||SHOW VIEW|G
-menudb|schema||ohgiraffers||TRIGGER|G
-menudb|schema||ohgiraffers||UPDATE|G</Grants>
-      <ServerVersion>8.0.36</ServerVersion>
-    </root>
+    <root id="1"/>
     <collation id="2" parent="1" name="armscii8_bin">
       <Charset>armscii8</Charset>
     </collation>

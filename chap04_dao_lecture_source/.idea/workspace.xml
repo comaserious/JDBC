@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33c899f9-c5a8-4b9e-b120-d17bad1dedf1" name="Changes" comment="" />
+    <list default="true" id="33c899f9-c5a8-4b9e-b120-d17bad1dedf1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/19e7f063-23ca-4bab-bbdb-94d0ac6bbeaf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/19e7f063-23ca-4bab-bbdb-94d0ac6bbeaf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +66,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Lecuture/03_JDBC/01_lecture_source/chap04_dao_lecture_source",
+    "last_opened_file_path": "C:/Lecuture/teamproject2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -128,6 +131,7 @@
       <updated>1709859305807</updated>
       <workItem from="1709859306808" duration="13378000" />
       <workItem from="1709903621473" duration="215000" />
+      <workItem from="1710034496831" duration="1610000" />
     </task>
     <servers />
   </component>
