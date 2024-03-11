@@ -86,7 +86,7 @@ public class MenuDAO {
             pstmt.setInt(3,newMenu.getMenuPrice());
             pstmt.setInt(4,newMenu.getCategoryCode());
             pstmt.setString(5,newMenu.getOrderableStatus());
-
+            // 이런식으로 모든 데이터를 일일이 써야하는 문제가 발생 이를 해결하기 위해서 'MyBatis'를 이용한다
             result = pstmt.executeUpdate();
         } catch (SQLException e) {
             throw new RuntimeException(e);
